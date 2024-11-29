@@ -1,0 +1,3 @@
+[submodule "f1tenth_system"]
+	path = f1tenth_system
+	url = https://github.com/jsryu118/f1tenth_system.git
