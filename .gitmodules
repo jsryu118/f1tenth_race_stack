@@ -4,3 +4,6 @@
 [submodule "f1tenth_sensors"]
 	path = f1tenth_sensors
 	url = https://github.com/jsryu118/f1tenth_sensors.git
+[submodule "state_estimation/particle_filter"]
+	path = state_estimation/particle_filter
+	url = https://github.com/jsryu118/particle_filter.git
