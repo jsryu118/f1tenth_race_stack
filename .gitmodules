@@ -1,3 +1,6 @@
 [submodule "f1tenth_system"]
 	path = f1tenth_system
 	url = https://github.com/jsryu118/f1tenth_system.git
+[submodule "f1tenth_sensors"]
+	path = f1tenth_sensors
+	url = https://github.com/jsryu118/f1tenth_sensors.git
