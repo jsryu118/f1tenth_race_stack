@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>stack_master</name>
+  <version>1.2.0</version>
+  <description>
+    Stack Master for F1tenth HMCL
+  </description>
+  <maintainer email="jeongsangryu@gmail.com">Jeongsang Ryu</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

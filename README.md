@@ -34,5 +34,17 @@ rosdep install --from-paths src --ignore-src -r -y
 
 ### **5. Build the Workspace**
 ```bash
-colcon build
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+# or
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select <package_name>
+```
+
+### **6. Multi Agent System**
+```bash
+# This sets the namespace and frame ID for the vehicle.
+export F1TENTH_CAR_NAME='carname'
+
+# Additionally, the joy_node should be executed as follows to ensure proper topic remapping:
+ros2 run joy joy_node --ros-args -r /joy:=/carname/joy
+
 ```
